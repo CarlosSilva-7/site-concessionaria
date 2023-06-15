@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <link rel="shortcut icon" type="image-x/png" href="/images/logo-ico.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,900;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,300&family=Nunito+Sans:ital,wght@0,600;1,300&family=Open+Sans:ital,wght@0,300;0,400;1,700&family=Oswald:wght@200;300;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@100;300;500&family=Raleway:wght@300;400;700&family=Roboto:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bcb3b4334f.js" crossorigin="anonymous"></script>
+    <title>Projeto 5</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><a href="/HTML/index.html"><img src="/images/logo.jpg"></a></div>
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="/HTML/index.html">Home</a></li>
+                    <li><a style="color:#EE3944;" href="/HTML/venda.html">Venda</a></li>
+                    <li><a href="/HTML/sobre.html">Sobre</a></li>
+                
+                </ul>
+            </nav>
+            <i class="fa-sharp fa-solid fa-bars"></i>
+            <nav class="nav-mobile">
+                <ul>
+                    <li><a href="/HTML/index.html">Home</a></li>
+                    <li><a style="color:#EE3944;" href="/HTML/venda.html">Venda</a></li>
+                    <li><a href="/HTML/sobre.html">Sobre</a></li>
+            
+                </ul>
+            </nav>
+        </div><!--center-->
+    </header>
+    <section class="info-veiculo">
+        <div class="titulo-inline">
+            <div class="line"></div><!--line-->
+            <div class="title"><h2>Nome do Veiculo</h2></div>
+            <div class="line"></div><!--line-->
+        </div><!--titulo-inline-->
+        <div class="center">
+            <div class="galeria fotorama" data-shuffle="true" data-fit="cover" data-loop="true" data-nav="thumbs" >
+                <img src="/images/imagem-representativa-hyundai-5-carros-que-vizinhos-tem-e-voce-nao-pode-comprar-no-brasil-1605816181060_v2_1000x1000.jpg" alt="">
+                <img src="/images/imagem-representativa-hyundai-5-carros-que-vizinhos-tem-e-voce-nao-pode-comprar-no-brasil-1605816181060_v2_1000x1000.jpg" alt="">
+                <img src="/images/imagem-representativa-hyundai-5-carros-que-vizinhos-tem-e-voce-nao-pode-comprar-no-brasil-1605816181060_v2_1000x1000.jpg" alt="">
+                <img src="/images/imagem-representativa-hyundai-5-carros-que-vizinhos-tem-e-voce-nao-pode-comprar-no-brasil-1605816181060_v2_1000x1000.jpg" alt="">
+                <img src="/images/imagem-representativa-hyundai-5-carros-que-vizinhos-tem-e-voce-nao-pode-comprar-no-brasil-1605816181060_v2_1000x1000.jpg" alt="">
+                <img src="/images/imagem-representativa-hyundai-5-carros-que-vizinhos-tem-e-voce-nao-pode-comprar-no-brasil-1605816181060_v2_1000x1000.jpg" alt="">
+                <img src="/images/imagem-representativa-hyundai-5-carros-que-vizinhos-tem-e-voce-nao-pode-comprar-no-brasil-1605816181060_v2_1000x1000.jpg" alt="">
+                <img src="/images/imagem-representativa-hyundai-5-carros-que-vizinhos-tem-e-voce-nao-pode-comprar-no-brasil-1605816181060_v2_1000x1000.jpg" alt="">
+                <img src="/images/imagem-representativa-hyundai-5-carros-que-vizinhos-tem-e-voce-nao-pode-comprar-no-brasil-1605816181060_v2_1000x1000.jpg" alt="">
+                <img src="/images/imagem-representativa-hyundai-5-carros-que-vizinhos-tem-e-voce-nao-pode-comprar-no-brasil-1605816181060_v2_1000x1000.jpg" alt="">
+            </div><!--galeria-->
+            <div class="description">
+                <h3>R$100.00,00</h3>
+                <p class="description-p"><b>Descricao:</b></p>
+                <div class="p-d">
+                    <p>Prazer, Creditas Auto! A plataforma de compra, venda, 
+                        troca e financiamento de carros que você pode confiar. 
+                        Por sinal, confiança aqui é item de série. Veja só: - 
+                        Comprou aqui, tem Garantia pra sempre, a única que não
+                         expira do país. - Todos os seminovos e usados passam
+                          por avaliação criteriosa. - Conte com o financiamento 
+                          Creditas com as menores taxas. - Ten
+                    </p>
+                </div>
+            </div><!--description-->
+            <div class="form-container">
+                <form>
+                    <h3>Entre em contato com o vendedor</h3>
+                    <div class="div-form w100">
+                        <label for="nome">Nome *</label><br>
+                        <input class="input" id="nome" type="name" required name="nome" placeholder="Nome completo">
+                    </div>
+                    <div class="div-form w50 w50l">
+                        <label for="phone">Telefone *</label><br>
+                        <input class="input" id="phone" type="tel" required name="phone" placeholder="(00 00000-0000)">
+                    </div>
+                    <div class="div-form w50 w50r">
+                        <label for="email">E-mail *</label><br>
+                        <input class="input" id="email" type="email" required name="email" placeholder="seuemail@email.com">
+                    </div>
+                    <div class="div-form w100">
+                        <label for="mensagem">Sua mensagem *</label><br>
+                        <textarea name="mensagem" id="mensagem" required></textarea>
+                    </div>
+                    <div class="div-form w100 div-btn">
+                        <input class="btn" type="submit" name="button" value="Enviar">
+                    </div>
+                </form>
+                <div class="clear"></div>
+            </div><!--form-container-->
+        </div><!--center-->
+    </section><!--info-veiculo-->    
+    <section class="veja-tambem">
+        <div class="center">
+            <div class="titulo-inline">
+                <div class="line"></div><!--line-->
+                <div class="title"><h2>Veja tambem</h2></div>
+                <div class="line"></div><!--line-->
+            </div><!--titulo-inline-->
+        </div><!--center-->
+        <div class="vitrine-container">
+            <div class="vitrine-box">
+                <div class="imagem-car"></div>
+                <div class="description">
+                    <h3>Nome do Carro</h3>
+                    <p>Descricao breve do modelo</p>
+                    <p>Ano do carro</p>
+                    <button><a href="pagina-produto.html"> MAIS DETALHES</a></button>
+                </div>
+            </div><!--vitrine-box-->
+            <div class="vitrine-box">
+                <div class="imagem-car"></div>
+                <div class="description">
+                    <h3>Nome do Carro</h3>
+                    <p>Descricao breve do modelo</p>
+                    <p>Ano do carro</p>
+                    <button><a href="pagina-produto.html"> MAIS DETALHES</a></button>
+                </div>
+            </div><!--vitrine-box-->
+            <div class="vitrine-box">
+                <div class="imagem-car"></div>
+                <div class="description">
+                    <h3>Nome do Carro</h3>
+                    <p>Descricao breve do modelo</p>
+                    <p>Ano do carro</p>
+                    <button><a href="pagina-produto.html"> MAIS DETALHES</a></button>
+                </div>
+            </div><!--vitrine-box-->
+        </div><!--center-->
+    </section><!--veja-tambem-->
+    <footer>
+        <div class="center">
+            <nav class="nav-footer">
+                <ul>
+                    <li><a href="/HTML/index.html">Home</a></li>
+                    <li><a style="color:#EE3944;" href="/HTML/venda.html">Venda</a></li>
+                    <li><a href="/HTML/sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+            <div class="direitos">
+                <p>Todos os direitos reservados</p>
+            </div>
+        </div><!--center-->
+    </footer>
+
+<script src="/JS/jquery-3.6.4.min.js"></script>
+<script src="/JS/fotorama.js"></script>
+<script src="/JS/script.js"></script>
+</body>
+</html>
